@@ -61,6 +61,23 @@ hr {
     padding: 0; 
 }
 
+/* PROJECTS STUFF */
+.hr1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid grey;
+    opacity: 0.4;
+    width: 85%;
+    text-align: center;
+}
+
+.center-block {
+   margin-left:auto;
+   margin-right:auto;
+   display:block;
+}
+
 
 .nav-masthead .nav-link {
   padding: .25rem 0;
@@ -70,6 +87,10 @@ hr {
   border-bottom: .05rem solid transparent;
 -webkit-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
+}
+
+.nav {
+  margin-top: 5px;
 }
 
 .nav-masthead .nav-link:hover,
@@ -97,7 +118,7 @@ hr {
 
 .btn {
   background-color: white;
-  border: 1px solid rgba(255, 193, 7, 1.0);
+  border: none;
   color: #808080;
   padding: 6px 15px;
   cursor: pointer;
@@ -106,8 +127,8 @@ hr {
 
 /* Darker background on mouse-over */
 .btn:hover {
-  background-color: rgba(255, 193, 7, 1.0);
-  color:#ffffff;
+  background-color: white;
+  color:#ffc107;
 }
 
 /*
@@ -125,8 +146,13 @@ hr {
 /*
  * Footer
  */
+
 .mastfoot {
   color: rgba(0, 0, 0, .5);
+  text-align: center;
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .mastfoot:hover {
